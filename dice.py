@@ -17,3 +17,10 @@ if total>7:
     print("%s won!" % name) 
 else:
     print("%s lost!" % name)
+
+count=0
+for i in range(1,7):
+    for j in range(1,7):
+        if total==i+j:
+            count+=1
+print('Probability that Total value becomes %d: %d/36' % (total,count))
