@@ -14,6 +14,6 @@ print('Die 2: %d' % dice2)
 print('Total value: %d' % total)
 
 if total>7:
-    print("You won!") 
+    print("%s won!" % name) 
 else:
-    print("You lost!")
+    print("%s lost!" % name)
